@@ -36,12 +36,17 @@ class _VideoScreenState extends State<VideoScreen> {
           ),
         ),
       ),
-      body: YoutubePlayer(
-        controller: _controller,
-        showVideoProgressIndicator: true,
-        onReady: () {
-          print('Player is Ready.');
-        },
+      body: Center(
+        child: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: YoutubePlayer(
+            controller: _controller,
+            showVideoProgressIndicator: true,
+            onReady: () {
+              print('Player is Ready.');
+            },
+          ),
+        ),
       ),
     );
   }

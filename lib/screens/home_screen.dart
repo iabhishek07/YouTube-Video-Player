@@ -34,9 +34,10 @@ class _HomeScreenState extends State<HomeScreen> {
       height: 100.0,
       decoration: BoxDecoration(
         color: Colors.white,
+        borderRadius: BorderRadius.circular(10),
         boxShadow: [
           BoxShadow(
-            color: Colors.black12,
+            color: Colors.black26,
             offset: Offset(0, 1),
             blurRadius: 6.0,
           ),
@@ -50,7 +51,7 @@ class _HomeScreenState extends State<HomeScreen> {
             backgroundImage: NetworkImage(_channel.profilePictureUrl),
           ),
           SizedBox(
-            width: 12.0,
+            width: 20.0,
           ),
           Expanded(
             child: Column(
@@ -95,20 +96,23 @@ class _HomeScreenState extends State<HomeScreen> {
         margin: EdgeInsets.symmetric(horizontal: 20.0, vertical: 5.0),
         padding: EdgeInsets.all(10.0),
         height: 140.0,
-        decoration: BoxDecoration(color: Colors.white, boxShadow: [
-          BoxShadow(
-            color: Colors.black12,
-            offset: Offset(0, 1),
-            blurRadius: 6.0,
-          )
-        ]),
+        decoration: BoxDecoration(
+            color: Colors.white,
+            borderRadius: BorderRadius.circular(10),
+            boxShadow: [
+              BoxShadow(
+                color: Colors.black26,
+                offset: Offset(0, 1),
+                blurRadius: 6.0,
+              )
+            ]),
         child: Row(
           children: <Widget>[
             Image(
               width: 150.0,
               image: NetworkImage(video.thumbnailUrl),
             ),
-            SizedBox(width: 10.0),
+            SizedBox(width: 15.0),
             Expanded(
               child: Text(
                 video.title,
