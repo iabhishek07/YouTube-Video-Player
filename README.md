@@ -1,16 +1,28 @@
-# youtube_api
+## YouTube Video Player
 
-A new Flutter project.
+YouTube Video Player is built in FLUTTER🚀 & DART🎯
 
-## Getting Started
+## Motivation
 
-This project is a starting point for a Flutter application.
+As this project uses **YouTube Data API v3**, motivation for this project is to learn fetching data from an API into FLUTTER!
 
-A few resources to get you started if this is your first Flutter project:
+## Code Style 
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Screenshots 
+
+|                   1.                    |                    2                    |              3                  |
+| :--------------------------------------:| :-------------------------------------: | :-----------------------------: |
+|<img src="/HomePage.png" height="500em"/>| <img src="/Player.png" height="500em"/>|<img src="/Record.gif" height="500em"/>                    |  
+
+## Tech/framework used
+
+<b>Built With</b>
+- [Flutter](https://flutter.dev) 📱
+- [Dart](https://dart.dev) 🎯
+- [YouTube API](https://developers.google.com/youtube/v3/getting-started) 🖥
+
+## Credits
+
+Guided Video by [Marcus NG](https://github.com/MarcusNg)
